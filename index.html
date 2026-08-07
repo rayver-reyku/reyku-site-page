@@ -1,10 +1,138 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Rayver C. Sumadsad</title>
-    </head>
-    <body>
-        <h1>Hello! I'm Rayver.</h1>
-        <p>I'm Currently a Computer Science Sophomore Student at Laguna State Polythecnic University -- Siniloan (Host) Campus.</p>
-    </body>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS Portfolio | Student Developer</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-teal-300 selection:text-slate-900">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur border-b border-slate-800">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="font-bold text-xl tracking-tight text-teal-400">&lt;Dev /&gt;</a>
+      <div class="space-x-6 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-teal-400 transition">About</a>
+        <a href="#skills" class="hover:text-teal-400 transition">Skills</a>
+        <a href="#projects" class="hover:text-teal-400 transition">Projects</a>
+        <a href="#contact" class="hover:text-teal-400 transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / About Section -->
+  <section id="about" class="pt-32 pb-20 px-6 max-w-5xl mx-auto min-h-screen flex flex-col justify-center">
+    <span class="text-teal-400 font-mono text-sm tracking-wider uppercase mb-2">Hello, world! I'm</span>
+    <h1 class="text-5xl sm:text-7xl font-extrabold text-slate-100 tracking-tight">Computer Science Student</h1>
+    <p class="mt-4 text-xl text-slate-400 max-w-2xl leading-relaxed">
+      Passionate about software engineering, web development, and building tools that solve real-world problems. Currently exploring full-stack systems and modern Web APIs.
+    </p>
+    <div class="mt-8 flex gap-4">
+      <a href="#projects" class="bg-teal-500 hover:bg-teal-400 text-slate-900 font-semibold px-6 py-3 rounded-lg transition">View Projects</a>
+      <a href="#contact" class="border border-slate-700 hover:border-slate-500 text-slate-300 font-semibold px-6 py-3 rounded-lg transition">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 px-6 max-w-5xl mx-auto border-t border-slate-800">
+    <h2 class="text-3xl font-bold text-slate-100 mb-8">Technical Toolkit</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Languages -->
+      <div class="p-6 bg-slate-800/50 rounded-xl border border-slate-700/50">
+        <h3 class="text-lg font-semibold text-teal-400 mb-4">Languages</h3>
+        <ul class="space-y-2 text-slate-300">
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> JavaScript / TypeScript</li>
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> Python</li>
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> HTML5 & CSS3</li>
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> C / C++</li>
+        </ul>
+      </div>
+
+      <!-- Web & Design -->
+      <div class="p-6 bg-slate-800/50 rounded-xl border border-slate-700/50">
+        <h3 class="text-lg font-semibold text-teal-400 mb-4">Frameworks & UI</h3>
+        <ul class="space-y-2 text-slate-300">
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> React / Next.js</li>
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> Tailwind CSS</li>
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> UI/UX Prototyping</li>
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> REST APIs</li>
+        </ul>
+      </div>
+
+      <!-- Tools & Platforms -->
+      <div class="p-6 bg-slate-800/50 rounded-xl border border-slate-700/50">
+        <h3 class="text-lg font-semibold text-teal-400 mb-4">Tools & Backend</h3>
+        <ul class="space-y-2 text-slate-300">
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> Git & GitHub</li>
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> Supabase / PostgreSQL</li>
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> Node.js</li>
+          <li class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-teal-400"></span> VS Code / Linux</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-6 max-w-5xl mx-auto border-t border-slate-800">
+    <h2 class="text-3xl font-bold text-slate-100 mb-8">Featured Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- Project Card 1 -->
+      <div class="group bg-slate-800/40 rounded-xl p-6 border border-slate-700/50 hover:border-teal-500/50 transition">
+        <h3 class="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition">Project Title One</h3>
+        <p class="mt-2 text-slate-400 text-sm leading-relaxed">
+          A concise overview of the project, explaining what problem it solves, key architectural decisions, and features implemented.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2 text-xs font-mono">
+          <span class="px-2.5 py-1 bg-teal-950 text-teal-300 rounded border border-teal-800">Next.js</span>
+          <span class="px-2.5 py-1 bg-teal-950 text-teal-300 rounded border border-teal-800">Tailwind</span>
+          <span class="px-2.5 py-1 bg-teal-950 text-teal-300 rounded border border-teal-800">Supabase</span>
+        </div>
+        <div class="mt-6 flex gap-4 text-sm font-medium">
+          <a href="#" class="text-slate-300 hover:text-teal-400 transition">GitHub Repo &rarr;</a>
+          <a href="#" class="text-slate-300 hover:text-teal-400 transition">Live Demo &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="group bg-slate-800/40 rounded-xl p-6 border border-slate-700/50 hover:border-teal-500/50 transition">
+        <h3 class="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition">Project Title Two</h3>
+        <p class="mt-2 text-slate-400 text-sm leading-relaxed">
+          Another project highlights software design, data structures, or algorithmic problem-solving.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2 text-xs font-mono">
+          <span class="px-2.5 py-1 bg-teal-950 text-teal-300 rounded border border-teal-800">Python</span>
+          <span class="px-2.5 py-1 bg-teal-950 text-teal-300 rounded border border-teal-800">REST API</span>
+        </div>
+        <div class="mt-6 flex gap-4 text-sm font-medium">
+          <a href="#" class="text-slate-300 hover:text-teal-400 transition">GitHub Repo &rarr;</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 max-w-5xl mx-auto border-t border-slate-800 text-center">
+    <h2 class="text-3xl font-bold text-slate-100">Let's Connect</h2>
+    <p class="mt-4 text-slate-400 max-w-lg mx-auto">
+      I'm always open to discussing new projects, open-source work, or software development opportunities.
+    </p>
+    <div class="mt-8 flex justify-center gap-6">
+      <a href="mailto:your.email@example.com" class="text-teal-400 hover:underline">Email Me</a>
+      <a href="https://github.com" target="_blank" class="text-teal-400 hover:underline">GitHub</a>
+      <a href="https://linkedin.com" target="_blank" class="text-teal-400 hover:underline">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-slate-600 text-xs border-t border-slate-800">
+    Designed & built with HTML & Tailwind CSS.
+  </footer>
+
+</body>
 </html>
