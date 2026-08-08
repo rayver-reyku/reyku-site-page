@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sogeo UI', Verdana, Geneva, Tahoma, sans-serif, Comic Sans MS;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
 }
 
 body {
     background-color: black;
-    color: white;
+    color: blue;
     line-height: 1.6;
 }
 
@@ -53,14 +53,13 @@ nav a:hover {
   min-height: 60vh;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
-  text-align: left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 2rem;
 }
 
 .hero h1 {
-  font: Comic Sans MS;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
