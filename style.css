@@ -1,0 +1,14 @@
+/* 1. Global Reset & Fonts*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sogeo UI', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: blue;
+    line-height: 1.6;
+}
+
