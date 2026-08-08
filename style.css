@@ -53,9 +53,9 @@ nav a:hover {
   min-height: 60vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
   padding: 2rem;
 }
 
