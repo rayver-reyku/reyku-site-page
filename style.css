@@ -74,12 +74,12 @@ nav a:hover {
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
   background: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(6px); 
-  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(4px); 
+  -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.25); 
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
   border-radius: 16px; 
-  color: #0f172a;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   transition: transform 0.2s, background-color 0.2s;
