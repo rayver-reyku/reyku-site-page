@@ -7,8 +7,8 @@
 }
 
 body {
-    background: #000000;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(19, 73, 148, 1) 46%, rgba(0, 80, 191, 1) 58%, rgba(0, 13, 255, 1) 71%, rgba(109, 76, 216, 1) 85%, rgba(163, 83, 237, 1) 95%);
+    background: #010407;
+    background: linear-gradient(120deg, rgba(1, 4, 7, 1) 27%, rgba(19, 73, 148, 1) 62%, rgba(0, 25, 217, 1) 73%, rgba(72, 0, 255, 1) 80%, rgba(109, 76, 216, 1) 89%, rgba(163, 83, 237, 1) 95%);
     color: white;
     line-height: 1.6;
 }
@@ -55,8 +55,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  align-items: left;
-  text-align: left;
+  align-items: center;
+  text-align: center;
   padding: 2rem;
 }
 
