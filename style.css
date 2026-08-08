@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sogeo UI', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sogeo UI', Verdana, Geneva, Tahoma, sans-serif, Comic Sans MS;
 }
 
 body {
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .hero h1 {
-  font: Comic;
+  font: Comic Sans MS;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
