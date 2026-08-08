@@ -30,7 +30,8 @@ nav {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: linear-gradient(90deg,rgba(255, 225, 0, 1) 20%, rgba(255, 102, 0, 1) 40%, rgba(255, 0, 0, 1) 60%, rgba(191, 83, 237, 1) 80%);
+  background: #ffe100;
+  background: linear-gradient(90deg, rgba(255, 225, 0, 1) 20%, rgba(255, 102, 0, 1) 40%, rgba(255, 0, 0, 1) 60%, rgba(191, 83, 237, 1) 80%);
 }
 
 nav ul {
