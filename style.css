@@ -96,7 +96,7 @@ nav a:hover {
   position: relative;
   width: 260px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 100%;
   z-index: 2; /* Sits in front of the circle */
 }
 
@@ -167,6 +167,7 @@ nav a:hover {
 
 .btn:hover {
   background-color: #7dd3fc;
+  size: 20%;
   transform: translateY(-2px);
 }
 
