@@ -156,21 +156,35 @@ nav a:hover {
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
   background: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(4px); 
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.25); 
+  backdrop-filter: blur(1px); 
+  -webkit-backdrop-filter: blur(1px);
+  border: none; 
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2); 
-  border-radius: 16px; 
+  border-radius: 1000px; 
   color: white;
   text-decoration: none;
   font-weight: bold;
   transition: transform 0.2s, background-color 0.2s;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn::after{
+  content: '';
+  position: absolute;
+  height: 107%;
+  font-weight: 102%;
+  border-radius: 1000px;
+  background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+  z-index: -1;
 }
 
 .btn:hover {
-  background-color: #7dd3fc;
-  size: 20%;
-  transform: translateY(-2px);
+  z-index: 0;
+  box-shadow: 40px 0 100px #008cff, -40px 0 100px #e100ff;
 }
 
 /* 4. Content Containers */
