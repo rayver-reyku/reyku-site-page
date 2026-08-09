@@ -135,6 +135,7 @@ nav a:hover {
   -webkit-backdrop-filter: blur(12px);
   padding: 0.5rem 1rem;
   border-radius: 8px;
+  border-color: white;
   font-weight: 600;
 }
 
