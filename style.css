@@ -80,7 +80,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .circle-bg {
@@ -104,6 +104,8 @@ nav a:hover {
 }
 
 .tech-title {
+  display: flex;
+  align-items: center;
   font-size: 0.9rem;
   color: #94a3b8;
   margin-bottom: 0.75rem;
