@@ -340,5 +340,5 @@ footer {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-top: 1px solid #1e293b;
+  border-top: 1px solid white;
 }
