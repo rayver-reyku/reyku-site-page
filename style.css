@@ -98,6 +98,47 @@ nav a:hover {
   z-index: 2; /* Sits in front of the circle */
 }
 
+.tech-stack-section {
+  margin-top: 2.5rem;
+}
+
+.tech-title {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  max-width: 500px;
+  white-space: nowrap;
+}
+
+.carousel-track {
+  display: inline-flex;
+  gap: 1.5rem;
+  animation: scroll 12s linear infinite;
+}
+
+.carousel-track span {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 .highlight {
   color: #38bdf8;
 }
