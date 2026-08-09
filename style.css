@@ -151,39 +151,76 @@ nav a:hover {
   color: #38bdf8;
 }
 
+/* --- Glassmorphism Button with Gradient Border & Hover Glow --- */
 .btn {
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  background: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(1px); 
-  -webkit-backdrop-filter: blur(1px);
-  border: none; 
-  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2); 
-  border-radius: 1000px; 
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  transition: transform 0.2s, background-color 0.2s;
   position: relative;
-
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  
+  /* Glassmorphism background */
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.4s ease;
+  overflow: visible; /* Allows glowing light effect to show around borders */
 }
 
-.btn::after{
+/* 1. Gradient Border Layer */
+.btn::before {
   content: '';
   position: absolute;
-  height: 110%;
-  font-weight: 105%;
-  border-radius: 1000px;
-  background-image: linear-gradient(to bottom right, #008cff, #e100ff);
-  z-index: -1;
+  inset: 0;
+  border-radius: 50px;
+  padding: 2px; /* Border thickness */
+  background: linear-gradient(135deg, #008cff, #e100ff);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
 }
 
+/* 2. Gradient Light Effect (Glow behind button) */
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  background: linear-gradient(135deg, #008cff, #e100ff);
+  border-radius: 50px;
+  z-index: -1;
+  opacity: 0;
+  filter: blur(15px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* --- Hover State --- */
 .btn:hover {
-  z-index: 0;
-  box-shadow: 40px 0 100px #008cff, -40px 0 100px #e100ff;
+  /* Turns into full gradient blue-purple background */
+  background: linear-gradient(135deg, #008cff, #e100ff);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Reveals the background glow on hover */
+.btn:hover::after {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* --- Click / Active State --- */
+.btn:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 0 25px rgba(0, 140, 255, 0.6), 0 0 25px rgba(225, 0, 255, 0.6);
 }
 
 /* 4. Content Containers */
