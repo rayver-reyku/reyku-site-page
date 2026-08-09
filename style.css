@@ -97,8 +97,6 @@ nav a:hover {
   width: 260px;
   height: auto;
   border-radius: 100%;
-  size: 20%;
-  object-fit:fill;
   z-index: 2; 
 }
 
@@ -161,7 +159,7 @@ nav a:hover {
   border: 1px solid rgba(255, 255, 255, 0.25); 
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2); 
   border-radius: 16px; 
-  color: white;
+  color: #38bdf8;
   text-decoration: none;
   font-weight: bold;
   transition: transform 0.2s, background-color 0.2s;
