@@ -101,6 +101,8 @@ nav a:hover {
 
 .tech-stack-section {
   margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .tech-title {
