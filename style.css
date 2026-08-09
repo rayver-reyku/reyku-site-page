@@ -152,7 +152,6 @@ nav a:hover {
 }
 
 .btn {
-  display: inline-block;
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
   background: rgba(255, 255, 255, 0.15); 
@@ -175,8 +174,8 @@ nav a:hover {
 .btn::after{
   content: '';
   position: absolute;
-  height: 107%;
-  font-weight: 102%;
+  height: 110%;
+  font-weight: 105%;
   border-radius: 1000px;
   background-image: linear-gradient(to bottom right, #008cff, #e100ff);
   z-index: -1;
