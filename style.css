@@ -98,6 +98,7 @@ nav a:hover {
   height: auto;
   border-radius: 100%;
   size: 20%;
+  object-fit:fill;
   z-index: 2; 
 }
 
