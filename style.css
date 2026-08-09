@@ -97,7 +97,8 @@ nav a:hover {
   width: 260px;
   height: auto;
   border-radius: 100%;
-  z-index: 2; /* Sits in front of the circle */
+  size: 10%;
+  z-index: 2; 
 }
 
 .tech-stack-section {
