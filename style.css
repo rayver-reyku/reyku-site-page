@@ -156,10 +156,10 @@ nav a:hover {
   background: rgba(255, 255, 255, 0.15); 
   backdrop-filter: blur(4px); 
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.25); 
+  border: 1px solid #38bdf8(255, 255, 255, 0.25); 
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2); 
   border-radius: 16px; 
-  color: #38bdf8;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   transition: transform 0.2s, background-color 0.2s;
