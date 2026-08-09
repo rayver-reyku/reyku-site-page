@@ -65,6 +65,7 @@ nav ul {
 }
 
 nav a {
+  font-size: 24px;
   color: #f8fafc;
   text-decoration: none;
   transition: color 0.3s;
