@@ -80,7 +80,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 100%;
+  border-radius: 10%;
 }
 
 .circle-bg {
@@ -96,6 +96,7 @@ nav a:hover {
   position: relative;
   width: 260px;
   height: auto;
+  border-radius: 50%;
   z-index: 2; /* Sits in front of the circle */
 }
 
