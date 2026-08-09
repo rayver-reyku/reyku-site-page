@@ -67,14 +67,12 @@ nav a:hover {
   max-width: 600px;
 }
 
-/* Side-by-Side Buttons */
 .hero-buttons {
   display: flex;
   gap: 1rem;
   margin-top: 1.5rem;
 }
 
-/* Right Side Image & Circular Background */
 .hero-image-wrapper {
   position: relative;
   display: flex;
@@ -132,7 +130,9 @@ nav a:hover {
 }
 
 .carousel-track span {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   padding: 0.5rem 1rem;
   border-radius: 8px;
   font-weight: 600;
