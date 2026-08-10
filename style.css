@@ -221,6 +221,7 @@ nav a:hover {
 
 .highlight {
   color: #38bdf8;
+  font-weight: bold;
 }
 
 /* --- Glassmorphism Button with Gradient Border & Hover Glow --- */
